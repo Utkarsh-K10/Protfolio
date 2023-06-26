@@ -86,7 +86,8 @@ const Header = () => {
                         </NavLink>
                     </Nav.Item>
 
-                    <Button className='resumebtn'>
+                    <Button className='resumebtn'
+                    onClick={()=> window.open("https://drive.google.com/file/d/1_qIbe3iBwqsT_4EpKoZPSNKuwjn_b6kT/view?usp=share_link")}>
                         <span>Resume</span>
                     </Button>
                 </Nav>

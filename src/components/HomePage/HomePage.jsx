@@ -4,35 +4,36 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Text from '../HomePage/Text'
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaAngellist } from "react-icons/fa";
 
 function Home() {
   return (
     <div className='homepagebackground'>
       <Container>
-        <Row>
+        <Row className='row'>
           <Col md={7}>
             <h2 className='headtext'>Hello <span className='wave'>👋 </span></h2>
             <h2 className='nametext'>I'm Utkarsh Kushwaha</h2>
             <span></span>
             <Text />
             <button onClick={() => {
-              window.open("https://github.com/rahulvijay81");
+              window.open("https://github.com/Utkarsh-K10");
             }}
-              className='socailmediabtn'><AiFillGithub className='icon' /></button>
+              className='socailmediabtn'><AiFillGithub className='icon' />
+            </button>
+
             <button onClick={() => {
-              window.open("https://www.linkedin.com/in/rahulvijay81/");
+              window.open("https://www.linkedin.com/in/utk10/");
             }}
               className='socailmediabtn'><FaLinkedinIn className='icon' /></button>
             <button onClick={() => {
-              window.open("https://twitter.com/rahulvijay8156");
+              window.open("https://wellfound.com/u/utkarsh-kushwaha-5");
             }}
-              className='socailmediabtn'><AiOutlineTwitter className='icon' /></button>
+              className='socailmediabtn'><FaAngellist className='icon' /></button>
             <button onClick={() => {
-              window.open("https://instagram.com/rahulvijay81");
+              window.open("https://instagram.com/_.utk_arsh");
             }}
               className='socailmediabtn'><AiFillInstagram className='icon' /></button>
           </Col>
