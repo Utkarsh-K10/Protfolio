@@ -37,9 +37,9 @@ function Home() {
             }}
               className='socailmediabtn'><AiFillInstagram className='icon' /></button>
           </Col>
-
           <Col md={5}>
-            <div className="imagedeveloper">
+          {/* <div className='mineimage'></div> */}
+            <div className="webimage">
             </div>
           </Col>
         </Row>

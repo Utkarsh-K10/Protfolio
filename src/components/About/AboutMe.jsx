@@ -9,7 +9,7 @@ const AboutMe = () => {
                 <Row className='textbackground'>
                     <Col md={7}>
                         <h3 className='aboutmetext'>About <span> Me</span></h3>
-                        <p className='aboutdetails'>Passionate full-stack engineer skilled in web development. Problem-solver and avid learner. Holds IT Engineering degree. Love ML, enjoys Tabla and Badminton.</p>
+                        <p className='aboutdetails'>I am a full-stack engineer with a passion for creating and improving web applications. I have experience in developing e-commerce and service-based platforms using various technologies and frameworks. I enjoy learning new skills, accepting challenges, solving problems and optimizing code. I have a degree in IT engineering from a reputed institution. In my spare time, I love to play tabla indoors and badminton outdoors.</p>
                         <ul className='skilllist'>
                             <Row>
                                 <h3>Skills</h3>
@@ -29,7 +29,7 @@ const AboutMe = () => {
                         </ul>
                     </Col>
                     <Col>
-                    <div className='webimage'></div>
+                    <div className='mineimage'></div>
                     </Col>
                 </Row>
             </Container>

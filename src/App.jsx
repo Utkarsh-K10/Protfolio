@@ -9,7 +9,7 @@ import Contact from './pages/ContactPage'
 import Preload from './components/Preload'
 import { useEffect, useState } from 'react'
 
-function App() {
+const App = () => {
   const [load, updateLoad] = useState(true);
 
   const [mousePosition, setMousePosition] = useState({
