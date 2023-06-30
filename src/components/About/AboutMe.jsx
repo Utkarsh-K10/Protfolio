@@ -1,13 +1,14 @@
 import React from 'react'
 import '../../pages/CSS/style.css'
 import { Col, Container, Row } from 'react-bootstrap'
+import {AiFillHeart} from 'react-icons/ai'
 
 const AboutMe = () => {
     return (
         <div className='aboutpagebackground'>
             <Container style={{marginTop:"80px"}}>
                 <Row className='textbackground'>
-                    <Col md={7}>
+                    <Col md={8}>
                         <h3 className='aboutmetext'>About <span> Me</span></h3>
                         <p className='aboutdetails'>I am a full-stack engineer with a passion for creating and improving web applications. I have experience in developing e-commerce and service-based platforms using various technologies and frameworks. I enjoy learning new skills, accepting challenges, solving problems and optimizing code. I have a degree in IT engineering from a reputed institution. In my spare time, I love to play tabla indoors and badminton outdoors.</p>
                         <ul className='skilllist'>
@@ -28,7 +29,7 @@ const AboutMe = () => {
                             </Row>
                         </ul>
                     </Col>
-                    <Col>
+                    <Col md={4}>
                     <div className='mineimage'></div>
                     </Col>
                 </Row>

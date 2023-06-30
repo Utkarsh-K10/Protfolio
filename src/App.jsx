@@ -10,23 +10,26 @@ import Preload from './components/Preload'
 import { useEffect, useState } from 'react'
 
 const App = () => {
-  const [load, updateLoad] = useState(true);
-
+  const [load, upadateLoad] = useState(true);
   const [mousePosition, setMousePosition] = useState({
     x: 0,
     y: 0
   });
+  console.log(mousePosition);
 
   useEffect(() => {
-    const mouseMove = (e) => {
+    const mouseMove = e => {
       setMousePosition({
         x: e.clientX,
         y: e.clientY
-      });
-
-      window.addEventListener('mousemove', mouseMove);
+      })
     }
-    return () => window.removeEventListener('mousemove', mouseMove)
+
+    window.addEventListener("mousemove", mouseMove);
+
+    return () => {
+      window.removeEventListener("mousemove", mouseMove);
+    }
   }, []);
 
   const variants = {
@@ -34,14 +37,16 @@ const App = () => {
       x: mousePosition.x - 16,
       y: mousePosition.y - 16
     }
-  };
+  }
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      updateLoad(false)
-    }, 1200)
-    return () => clearTimeout(timer)
-  }, [])
+      upadateLoad(false);
+    }, 1200);
+
+    return () => clearTimeout(timer);
+  }, []);
+
 
   return (
     <div className='App'>
@@ -52,7 +57,7 @@ const App = () => {
       />
 
       <Router>
-        <Preload load = {load}/>
+        <Preload load={load} />
         <div className='App' id={load ? 'no-scroll' : 'scroll'}>
           <Routes>
             <Route path='/' element={<HomePage />}></Route>

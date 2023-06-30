@@ -20,7 +20,7 @@ const ContactMe = () => {
                 <p className="copyright">
                     © Copyright 2023
                     <hr />
-                    Designed & Built by <span>Utkarsh</span>
+                    Designed & Built by <span> Utkarsh</span>
                 </p>
             </Container>
         </div>

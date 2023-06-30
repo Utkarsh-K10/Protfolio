@@ -38,11 +38,16 @@ function Home() {
               className='socailmediabtn'><AiFillInstagram className='icon' /></button>
           </Col>
           <Col md={5}>
-          {/* <div className='mineimage'></div> */}
+            {/* <div className='mineimage'></div> */}
             <div className="webimage">
             </div>
           </Col>
         </Row>
+        <p className="copyright">
+          © Copyright 2023
+          <hr />
+          Designed & Built by <span> Utkarsh</span>
+        </p>
       </Container>
     </div>
   )
