@@ -43,11 +43,6 @@ function Home() {
             </div>
           </Col>
         </Row>
-        <p className="copyright">
-          © Copyright 2023
-          <hr />
-          Designed & Built by <span> Utkarsh</span>
-        </p>
       </Container>
     </div>
   )
