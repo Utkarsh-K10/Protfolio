@@ -22,9 +22,9 @@ const AboutMe = () => {
                                 </Col>
                                 <Col md={5}>
                                     <li>Material UI</li>
-                                    <li>React Bootstrap</li>
+                                    <li>ReactBootstrap</li>
                                     <li>REST API</li>
-                                    <li>Machine Learning</li>
+                                    <li>MachineLearning</li>
                                 </Col>
                             </Row>
                         </ul>
