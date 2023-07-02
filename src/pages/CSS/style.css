@@ -19,7 +19,9 @@
 }
 
 .navbar-toggler {
-  position: relative !important;
+  position: absolute !important;
+  width: 10%;
+  margin-left: auto;
   background-color: transparent !important;
   border-color: transparent !important;
 }
@@ -112,13 +114,16 @@
   .navbar-nav .nav-item a::after {
     display: none !important;
   }
+  .logo{
+    display: none
+  }
 
   .responsive-navbar {
     width: 100%;
     height: 250px;
     border-radius: 15px;
     background-color: #FAACA8;
-  background-image: linear-gradient(45deg, #FAACA8 0%, #DDD6F3 64%, #3fc6da 100%);
+    background-image: linear-gradient(45deg, #FAACA8 0%, #DDD6F3 64%, #3fc6da 100%);
   }
 
   .nav-link {
@@ -374,13 +379,13 @@
   border-color:aliceblue;
 }
 
-/* .webimage {
+.webimage {
   max-width: 500px;
   height: 350px;
   background-image: url(../../Assets/web-removebg-preview.png);
   background-size: cover;
   background-position: center;
-} */
+}
 
 @media (max-width: 767px) {
   .aboutpagebackground {
@@ -420,8 +425,6 @@
     }
 
     .aboutmetext {
-      font-size: 1em !important;
-      font-weight: 900 !important;
       text-align: justify;
     }
 
@@ -522,13 +525,8 @@
   width: 100%;
   height: 100%;
   min-height: 100vh;
-  /* background-color: #4158d0; */
   background-color: #FAACA8;
   background-image: linear-gradient(45deg, #FAACA8 0%, #DDD6F3 64%, #3fc6da 100%);
-  /* background-image: linear-gradient(43deg,
-      #4158d0 0%,
-      #c850c0 46%,
-      #ffcc70 100%); */
   padding-top: 110px;
 }
 
@@ -576,6 +574,16 @@
 .copyright span {
   font-weight: 700;
   letter-spacing: 1px;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 455px){
+  .contacthead{
+    font-size: 2rem;
+  }
+
+  .contactpara{
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 767px) {
