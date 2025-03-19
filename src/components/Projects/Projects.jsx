@@ -16,34 +16,34 @@ const Projects = () => {
                                 title='Material Buy'
                                 description='Multi-vendor e-commerce platform frontend and some part of the backend for this Hardware business.'
                                 isBlog={false}
-                                pLink=""
+                                pLink="https://materialbuy.com"
                             />
                         </Col>
                         <Col md={4} className='project-card'>
                             <ProjectCard
                                 imgPath={restoration}
                                 title='Health Restoration'
-                                description='Multi-vendor e-commerce platform frontend and some part of the backend for this Hardware business.'
+                                description='Health Service Platform for Doctors and Patient Management System'
                                 isBlog={false}
-                                pLink=""
+                                pLink="https://www.godaddy.com/forsale/healthrestorationclinic.com?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&"
                             />
                         </Col>
                         <Col md={4} className='project-card'>
                             <ProjectCard
                                 imgPath={materialbuyimg}
                                 title='Global Mart'
-                                description='Multi-vendor e-commerce platform frontend and some part of the backend for this Hardware business.'
+                                description='e-commerce platform using react, javascript with Express to develop with all e-commerce services'
                                 isBlog={false}
-                                pLink=""
+                                pLink="https://github.com/Utkarsh-K10/orions_GrabDeal_userwebsite"
                             />
                         </Col>
                         <Col md={4} className='project-card'>
                             <ProjectCard
                                 imgPath={facerecog}
                                 title='Face Recognition'
-                                description='Multi-vendor e-commerce platform frontend and some part of the backend for this Hardware business.'
+                                description='Authentication system with python and Machine Learning, using cloud based infrastructure azure for traning and google cloud platform.'
                                 isBlog={false}
-                                pLink=""
+                                pLink="https://github.com/Utkarsh-K10/RapidTransitAI/tree/master"
                             />
                         </Col>
                     </Row>
